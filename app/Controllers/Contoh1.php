@@ -12,5 +12,6 @@ class Contoh1 extends BaseController
         echo "<p>Nama : Muhamad Jayawijaya</p>";
         echo "<p>Kelas : 19220052 </p>";
         echo "<p>Alamat : Perumahan Villa Indah Permai Blok E12 No. 30 </p>";
+        echo "<p>No telp : 23482684632";
     }
 }
