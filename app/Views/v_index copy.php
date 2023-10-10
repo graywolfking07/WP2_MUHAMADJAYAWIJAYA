@@ -1,3 +1,5 @@
+<?= $this->extend('v_header') ?>
+<?= $this->section('content') ?>
 <section>
             <h1>
                 <?php echo $judul ?>
@@ -49,3 +51,4 @@
                     menjadi mudah dan pengembangan aplikasi dapat di lakukan dengan
                     cepat dan terstruktur.</p>
         </section>
+        <?= $this->endSection() ?>
