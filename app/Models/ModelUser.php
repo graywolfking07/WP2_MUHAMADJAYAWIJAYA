@@ -28,8 +28,4 @@ class ModelUser extends CI_Model
         $this->db->limit(10, 0);
         return $this->db->get();
     }
-    public function cekData($where = null)
- {
-    return $this->db->get_where('user', $where);
-}
 }
